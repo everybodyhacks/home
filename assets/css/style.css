@@ -5,6 +5,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
 
 /*--------------------------------------------------------------
 # General
@@ -62,6 +63,30 @@ h6 {
 
 .clients {
     margin-top: 150px;
+}
+
+.countdown-block {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: 0.3s;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    background-color: #0805A1;
+    color: white
+}
+
+.demo {
+    font-size: xx-large;
+}
+
+.sub-title {
+    font-size: large;
+}
+
+.block-container {}
+
+.countdown-block:hover {
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.342), 0 7px 20px 0 rgba(0, 0, 0, 0.288);
 }
 
 
