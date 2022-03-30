@@ -83,8 +83,6 @@ h6 {
     font-size: large;
 }
 
-.block-container {}
-
 .countdown-block:hover {
     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.342), 0 7px 20px 0 rgba(0, 0, 0, 0.288);
     color: white;
