@@ -60,12 +60,29 @@
             </div>
 
             <nav id="navbar" class="navbar">
+
+
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="events.html">Events</a></li>
+                    <!-- <li><a class="active" href="events.html">Events</a></li> -->
+                    <li class="dropdown"><a href="events.html"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="hackathon.html">Hackathon</a></li>
+                            <li class="dropdown"><a href="panel.html"><span>April Panel Series</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">April 8th Panel</a></li>
+                                    <li><a href="#">April 13th Panel</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li><a href="hackathon.html">April Panel Series</a></li> -->
+                            <li><a href="#">Fundraising Events</a></li>
+                        </ul>
+                    </li>
                     <li><a class="active" href="join-committee.html">Join Committee</a></li>
+
                 </ul>
+
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
             <!-- .navbar -->
