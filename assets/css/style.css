@@ -2358,7 +2358,7 @@ section {
     margin-right: 5%;
     margin-top: 2%;
     padding: 2%;
-    transition: 2s;
+    transition: 1s;
 }
 
 .featuring:hover {
@@ -2367,6 +2367,11 @@ section {
 
 .panelimg {
     object-fit: cover;
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
+}
+
+.panel-button:hover {
+    box-shadow: 0 2px 4px 0 #0805A1, 0 5px 15px 0 #0805A1;
+    transition: 0.5s;
 }
