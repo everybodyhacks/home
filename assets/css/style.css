@@ -2357,7 +2357,6 @@ section {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
-    padding: 2%;
     transition: 1s;
 }
 
@@ -2367,11 +2366,28 @@ section {
 
 .panelimg {
     object-fit: cover;
-    width: 20vw;
-    height: 20vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 .panel-button:hover {
     box-shadow: 0 2px 4px 0 #0805A1, 0 5px 15px 0 #0805A1;
     transition: 0.5s;
+}
+
+.zoom-button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    transition: 1s;
+    background-color: #0805A1;
+    color: white;
+}
+
+.zoom-button:hover {
+    box-shadow: 0 2px 4px 0 #0805A1, 0 5px 15px 0 #0805A1;
+    background-color: white;
+    color: #0805A1;
 }
