@@ -2365,8 +2365,8 @@ section {
 
 .panelimg {
     object-fit: cover;
-    width: 40vw;
-    height: 40vw;
+    max-width: 40vw;
+    max-height: 40vw;
 }
 
 .panel-button:hover {
@@ -2383,6 +2383,7 @@ section {
     transition: 1s;
     background-color: #0805A1;
     color: white;
+    max-width: 40vw;
 }
 
 .zoom-button:hover {
