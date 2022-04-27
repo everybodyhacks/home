@@ -2482,3 +2482,8 @@ ul.timeline>li:before {
     height: 20px;
     z-index: 400;
 }
+
+.iframe-recording {
+    min-width: 80vw;
+    min-height: 40vw;
+}
