@@ -2487,3 +2487,8 @@ ul.timeline>li:before {
     min-width: 80vw;
     min-height: 40vw;
 }
+
+.blue-text {
+    color: #0805A1;
+    font-family: "Raleway", sans-serif;
+}
