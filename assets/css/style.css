@@ -2486,6 +2486,7 @@ ul.timeline>li:before {
 .iframe-recording {
     min-width: 80vw;
     min-height: 40vw;
+    padding: 70px;
 }
 
 .blue-text {
