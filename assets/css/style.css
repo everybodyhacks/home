@@ -2377,24 +2377,6 @@ section {
     transition: 0.5s;
 }
 
-.zoom-button {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-    transition: 1s;
-    background-color: #0805A1;
-    color: white;
-    max-width: 40vw;
-}
-
-.zoom-button:hover {
-    box-shadow: 0 2px 4px 0 #0805A1, 0 5px 15px 0 #0805A1;
-    background-color: white;
-    color: #0805A1;
-}
-
 .cardTop {
     background: #fac24f;
     border-radius: 20px;
@@ -2491,4 +2473,34 @@ ul.timeline>li:before {
 .blue-text {
     color: #0805A1;
     font-family: "Raleway", sans-serif;
+}
+
+.zoom-button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    transition: 1s;
+    background-color: #0805A1;
+    color: white;
+    max-width: 40vw;
+}
+
+.zoom-button a {
+    color: white;
+}
+
+.zoom-button:hover {
+    box-shadow: 0 2px 4px 0 #0805A1, 0 5px 15px 0 #0805A1;
+    background-color: white;
+    color: #0805A1;
+}
+
+.zoom-button a:hover {
+    color: #0805A1;
+}
+
+.signup-button {
+    border: #0805A1;
 }
