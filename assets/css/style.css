@@ -2345,7 +2345,11 @@ section {
     border-radius: 10px;
     transition: 0.3s;
     background-color: white;
-    color: #0805A1
+    color: #0805A1;
+}
+
+.card-header:hover {
+    color: white;
 }
 
 .material-shadow {
@@ -2392,8 +2396,6 @@ section {
     overflow: hidden;
     position: absolute;
     top: 144px;
-    margin-left: 71px;
-    box-shadow: 0px 20px 53px -30px rgba(95, 102, 173, 0.566816);
     border-radius: 10px;
 }
 
@@ -2433,6 +2435,10 @@ section {
 ul.timeline {
     list-style-type: none;
     position: inherit;
+}
+
+.timeline-container {
+    box-shadow: 0px 20px 53px -30px rgba(95, 102, 173, 0.566816);
 }
 
 ul.timeline:before {
@@ -2503,4 +2509,8 @@ ul.timeline>li:before {
 
 .signup-button {
     border: #0805A1;
+}
+
+.hackathon .icon-box h3:hover {
+    color: white;
 }
