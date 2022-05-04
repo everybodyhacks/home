@@ -300,7 +300,7 @@
         document.getElementById("demo-hour").innerHTML = hours;
         document.getElementById("demo-min").innerHTML = minutes;
         document.getElementById("demo-sec").innerHTML = seconds;
-
+        console.log(document.getElementById("demo-day"))
 
         // If the count down is finished, write some text
         if (distance < 0) {
